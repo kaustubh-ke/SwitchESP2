@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    background: none;
+    border: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app {
+    height: 100vh;
+    padding: 1rem;
+    background-color: papayawhip;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#toggleBtn1 {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #fff;
+    background-color: hotpink;
+}
+
+#toggleBtn1:hover {
+    transform: scale(1.1);
+    box-shadow: hotpink 0px 14px 28px;
+}
+
+#toggleBtn1.on {
+    background-color: mediumaquamarine;
+}
+
+#toggleBtn1.on:hover {
+    box-shadow: mediumaquamarine 0px 14px 28px;
+}
+
+#toggleBtn2 {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #fff;
+    background-color: hotpink;
+}
+
+#toggleBtn2:hover {
+    transform: scale(1.1);
+    box-shadow: hotpink 0px 14px 28px;
+}
+
+#toggleBtn2.on {
+    background-color: mediumaquamarine;
+}
+
+#toggleBtn2.on:hover {
+    box-shadow: mediumaquamarine 0px 14px 28px;
+}
